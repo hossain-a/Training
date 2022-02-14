@@ -1,0 +1,31 @@
+
+ 
+body{
+    color: green;
+    font-family: Verdana, Arial, Geneva, Arial Black;
+    /*font-weight: lighter;
+    /*font-weight: normal;
+    /*font-weight: bold;
+    /*font-weight: bolder;
+    */
+}
+
+p{
+    font-size: 20px;
+    font-family:Helvetica;
+    color: red; 
+}
+
+p.blue{
+    color: blue;
+}
+p.violet{
+    color: violet
+}*/
+
+.blue{
+    color: blue;
+}
+.underline{
+    text-decoration: underline;
+}
