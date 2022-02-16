@@ -1,0 +1,124 @@
+body{
+    color: green;
+    font-family: Verdana, Arial, Geneva, Arial Black;
+    font-weight: normal;
+    background-color: rgb(255, 255, 255);
+    background-color: #ffcf79;
+    font-size: 25px;
+}
+h1{
+    color: green;
+    text-decoration: underline;
+    font-size: 150%;
+    /*text align properties
+    text-align: center;
+    text-align: right;
+    text-align: left;*/
+    text-align: center;
+}
+h2{
+    color: green;
+    text-decoration: underline;
+    font-size: 1.2em;
+    text-align: center;
+}
+h3{
+    color: green;
+    text-decoration: underline;
+}
+#para1homepage{
+    color: blue; 
+}
+p.paragraph{
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color: #e5e4d7;
+    padding: 20px 20px 20px 20px;
+    border: black 2px solid;
+    /*Background image property*/
+    background-image: url(3.png);
+    background-size: cover;/* "cover" Resizes the background image to cover the entire container*/
+}
+/*id selector*/
+#para4homepage{
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color: #e5e4d7;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+
+    border-radius: 10px;
+    
+
+  /* Border properties 
+    border-color: black;
+    border-color: #296a64;
+    border-color: rgb(5, 5, 5) ;
+
+    border-width: thin;
+    border-width: medium;
+    border-width: thick;
+
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: ridge;
+    border-style: inset;
+    border-style: outset;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+     border-bottom-style:dashed ;
+ border-top-color: red ;
+ border-left-width:thick ;
+
+ */
+
+
+
+}
+
+img.image{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    background-color: black;
+}
+/*for div*/
+#divmain{
+    color: black;
+}
+#divbass{
+    color: black;
+}
+/* for span */
+.highlight{
+    background-color: #ffff00;
+}
+/*sharks*/
+.divcontent{
+    color: black;
+}
+
+/*special effects*/
+a:link{
+    color: blue;
+}
+a:visited{
+    color: #8C8c9D;
+}
+a:hover{
+    color: #F15A51 ;
+}
