@@ -1,0 +1,136 @@
+
+/*Block and Inline elements Part 1*/
+h1{
+    background-color: green;
+    color: yellow; 
+}
+
+p{
+    background-color: green;
+    color: yellow;
+}
+
+p.test{
+    background-color: green;
+    color: yellow;
+    border-color: orange;
+    border-width: 2px;
+    border-style: solid;
+}
+
+h2{
+    background-color: green;
+    color: yellow; 
+}
+
+div{
+    background-color: green;
+    color: yellow; 
+}
+/*Block and Inline elements Part 2 */
+img.special{
+    margin: 25px;
+border: black 2px solid;
+padding: 10px;
+background-color: yellow;
+}
+
+div.divtwo{
+    margin: 25px;
+border: black 2px solid;
+padding: 10px;
+ 
+background-color: yellow;
+color: black;
+}
+/*Block and Inline elements Part 3 */
+
+img.special1{
+
+padding: 10px;
+border: black 2px solid;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+ 
+background-color:green;
+}
+
+
+
+/*Floating an element*/
+ 
+h1.one {
+
+background-color: green;
+color:yellow;
+    
+}
+    
+div.div1 {
+    
+background-color: red;
+color:white;
+width: 50%;
+float: left;
+    
+}
+    
+div.div2 {
+    
+background-color: black;
+color:white;
+width: 50%;
+float: right;
+}
+    
+h2.two {
+    
+background-color: green;
+color:yellow;
+    
+}
+    
+p {
+border-color: green;
+border-width: 2px;
+border-style: solid;
+}
+
+/*absolute and fixed position
+*/
+p {
+
+    background-color: red;
+    color:white;
+}
+.divabsolute {
+    
+    background-color: black;
+    color:white;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width:250px;
+    height: 25px;        
+}
+
+ 
+
+p {
+
+    background-color: red;
+    color:white;
+}
+.divfixed {
+    
+    background-color: black;
+    color:white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+          
+}
+
+
