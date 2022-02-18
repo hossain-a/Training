@@ -1,0 +1,40 @@
+.test1 {
+ 
+    background-color: yellow;
+    height: 50px;
+    display: block;
+}
+
+.test2 {
+ 
+    background-color: yellow;
+    height: 50px;
+    display: inline;
+}
+
+.test3 {
+ 
+    background-color: yellow;
+    height: 50px;
+    display: inline-block;
+}
+
+#theform{
+    display: table;
+    background-color: #03614d;
+    color: white;
+    padding: 15px;
+    border: 2px solid black;
+}
+.row{
+    display: table-row;
+}
+.row label{
+    display: table-cell;
+    padding: 2px;
+    text-align: right;
+}
+.row input{
+    display: table-cell;
+    padding: 2px;
+}

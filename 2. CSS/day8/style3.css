@@ -1,0 +1,35 @@
+h1 {  
+    color: blue;
+
+}   
+#para1 {    
+    color: brown;
+
+}  
+.para {    
+    color: orange;
+
+}   
+h2, h3, #para1 {  
+    text-decoration: underline;
+}    
+div p {  
+    font-style: italic;
+}
+blockquote.test>b{
+    color: aqua;
+}
+
+blockquote.test1>b{
+ color: red;
+}
+
+blockquote.test1>p>b{
+ color: blueviolet;
+}
+
+
+h1, h2, h3, h4, h5, h6  {  
+    color: gray;
+    text-decoration: underline;
+}  
