@@ -1,0 +1,98 @@
+/*============== LAYOUT SECTION ===============*/
+/*Styling the body*/
+body{
+    background-color: #9c9f84;
+    margin: 0;/*to remove the default margin space*/
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+}
+/*Styling Header section*/
+#header{
+    background-color: #5c755e;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+    text-align: center;
+}
+/*Styling Navigation Bar*/
+#navbar{
+    background-color: #5c755e;
+    margin: 10px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+}
+/*Styling Main Content section*/
+.main{
+    background-color: #e5e4d7;
+    
+    /*margin: 10px;*/
+    margin-left: 10px;
+    margin-right: 320px;/*the Total from sideright */
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+    padding: 20px;
+    
+    font-size: 110%;
+}
+
+/*Styling right Sidebar.*/
+.sideright{
+    background-color: #e5e4d7;
+
+    /*Total=margin(R,L)+padding(R,L)+width
+    =(10+10)+(20+20)+260=320px*/
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    padding: 20px;
+    width: 260px;
+    
+    border-radius: 5px;
+    font-size: 105%;
+    float: right;
+    /*To make the sidebar in a top- down position*/
+    clear: right;
+}
+/*Image sidebar*/
+.imagesidebar{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    /*even though we don't need the padding we still need to count the padding left and right. so we will add it to the width. padding was 20px so have to add 40px to width */
+    width: 300px;
+    
+    border-radius: 5px;
+    float: right;
+    clear: right;
+    /*Adding effects to the Image sidebar*/
+    opacity: 1.0;
+    transition: opacity 0.5s ease-in-out;
+}
+.imagesidebar:hover{
+    opacity: 0.4;
+}
+/*Styling Footer section*/
+#footer{
+    background-color: #5c755e;
+    margin: 10px;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+
+    clear: both;/*elements not in the flow will not overlap the footer*/
+}
+/*============== HEADINGS SECTION ===============*/
+h1{
+    font-size: 120%;
+    color: #ce282e;
+}
+h2{
+    font-size: 120%;
+    color: darkblue;
+}
