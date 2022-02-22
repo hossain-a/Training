@@ -1,0 +1,76 @@
+#left{
+    width: 300px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background-color: #8d8d62;
+}
+
+#center{
+    width: 300px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background-color: #8d8d62;
+}
+
+#right{
+    width: 300px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background-color: #8d8d62;
+}
+
+#left, #center, #right, #nth{
+    border: 3px solid rgb(2, 61, 2);
+}
+
+/*Adjacent Sibling Selector*/
+h2+p{
+  background-color: brown;
+}
+/*General Sibling selector*/
+/*h2~p{
+ background-color: chocolate;
+}*/
+
+
+/*
+lang="en-us ja"
+lang="fr"
+lang="fr ko"
+*/
+p[lang*="us"] {
+    background-color: aqua;
+}
+
+/*nth selector*/
+#nth{
+    width: 300px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background-color: #8d8d62;
+}
+
+#nth p:nth-child(3n+5){
+
+    background-color: black;
+}
+/*not selector*/
+p{
+    color: black;
+}
+:not(p){
+   color: white;
+}
+/*first selectors*/
+p::first-letter{
+    font-weight: bold;
+    font-size: 25px;
+  
+}
+p:first-line{
+    color: green;
+}
