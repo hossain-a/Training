@@ -1,0 +1,159 @@
+/*watch day-10 if you want to understand the code*/
+
+/*============== LAYOUT SECTION ===============*/
+/*Styling the body*/
+body{
+    background-color: #9c9f84;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+}
+/*Styling Header section*/
+#header{
+    background-color: #5c755e;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+}
+/*Styling Navigation Bar
+#navbar{
+    background-color: #5c755e;
+    margin: 10px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+}*/
+/*Styling --- Navigation Bar-unsorted list*/
+#navbar ul{
+    padding: 5px;
+    list-style-type: none;/*to remove those bullet points*/
+    text-align: center;
+    background-color: #000;
+    border-radius: 5px;
+}
+/*Styling --- Navigation Bar->unsorted list->list*/
+#navbar ul li{
+    display: inline;
+}
+/*Styling --- Navigation Bar->unsorted list->list->a*/
+#navbar ul li a{
+    text-decoration: none;/*removing underline*/
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #000;
+}
+/*adding hover effect --- Navigation Bar->unsorted list->list->a*/
+#navbar ul li a:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+
+
+
+/*Styling Main Content section*/
+.main{
+    background-color: #e5e4d7;
+    margin-left: 10px;
+    margin-right: 320px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px; 
+    font-size: 110%;
+}
+/*Styling right Sidebar.*/
+.sideright{
+    background-color: #e5e4d7;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 5px;
+    font-size: 105%;
+    float: right;
+    clear: right;
+}
+/*Image sidebar*/
+.imagesidebar{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 5px;
+    float: right;
+    clear: right;
+    opacity: 1.0;
+    transition: opacity 0.5s ease-in-out;
+}
+.imagesidebar:hover{
+    opacity: 0.4;
+}
+/*Styling Footer section*/
+#footer{
+    background-color: #5c755e;
+    margin: 10px;
+    height: 60px;
+    border-radius: 5px;
+    clear: both;
+
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    font-size: 90%;
+}
+#footer ul{
+    padding: 5px;
+    list-style-type: none;/*to remove those bullet points*/
+    text-align: center;
+    border-radius: 5px;
+}
+/*Styling --- Navigation Bar->unsorted list->list*/
+#footer ul li{
+    display: inline;
+}
+/*Styling --- Navigation Bar->unsorted list->list->a*/
+#footer ul li a{
+    text-decoration: none;/*removing underline*/
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .2em 1em;
+    color: #efe5d0;
+    background-color: #5c755e;
+}
+/*adding hover effect --- Navigation Bar->unsorted list->list->a*/
+#footer ul li a:hover{
+    color: #000000;
+    background-color: #a2c5a6;
+    border-radius: 5px;
+}
+
+
+
+/*============== HEADINGS SECTION ===============*/
+h1{
+    font-size: 120%;
+    color: #ce282e;
+}
+h2{
+    font-size: 120%;
+    color: darkblue;
+}
+/*styling the header*/
+h3{
+    font-size: 250%;
+    text-align: center;
+    color: #e5e4d7;
+    font-family: "century gothic", 'Gill Sans', sans-serif;
+    margin: 0;/*to remove the extra margin*/
+
+    /*to vertically align the text*/
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

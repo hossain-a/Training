@@ -1,0 +1,41 @@
+/*Design for a nice button*/
+.button {
+    background: #e7e7e7;
+    border: 1px solid;
+    border-radius: 3px;
+    font: 700 13px Helvetica,Arial;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 20px;
+    text-align: center;
+    margin-right: 10px;
+    box-sizing: border-box;
+}  
+ul {     
+    padding: 0;
+    list-style-type: none;
+}  
+li {
+    display:inline;
+}   
+a {
+    color: #666;
+    text-decoration: none;
+    float: left;
+}
+a:hover {
+    color: #000;
+    background-color: #dadada;
+}
+
+
+
+/*five rules to always vertically align text. we can use this for any element. i've just used the header for understanding*/
+h1{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
