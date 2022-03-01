@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+.container{
+    /*display property*/
+    display: flex;/*by default acts as block*/
+    /*display: inline-flex;/*to make it inline*/
+
+    border: 6px solid black;
+
+    /*Flex Direction property
+    flex-direction: row;  */
+
+    /*flex wrap property
+    flex-wrap: wrap;  */
+    
+    /*Flex flow : does the work of direction and wrap properties  
+    flex-flow: row wrap ; */
+
+    /*justify content property  
+    justify-content: space-between;   */
+
+    /*Align items property   
+    height: 800px;
+    align-items: baseline;*/
+    
+    /*Align content property.....flex-wrap is also needed for this */
+    flex-wrap: wrap;  
+    height: 800px;
+    align-content: space-between;
+
+}
+.flex-item{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.item-1 {
+    background-color: #B4BF35;
+    /*font-size: 3rem */
+}
+.item-2 {
+    background-color: #B95F21;
+}
+.item-3 {
+    background-color: #1C4C56;
+    
+}
+.item-4 {
+    background-color: #CfB276;
+}
+.item-5 {
+    background-color: #6B0803;
+}
+.item-6 {
+    background-color: #1C4C56;
+}
+.item-7 {
+    background-color: #B95F21;
+}
+.item-8 {
+    background-color: #01243A;
+}
+.item-9 {
+    background-color: #AAD041;
+}
