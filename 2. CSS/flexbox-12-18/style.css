@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+.container {
+    border: 6px solid black;
+    display: flex;
+    height: 400px;
+}
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    /*making all the items to grow to take the extra space evenly  */
+    /* flex-grow: 2; */
+    /*making all the items to shrink     */
+    /* flex-shrink: 0; */
+
+}
+.item-1 {
+    background-color: #B4BF35;
+    /* flex-grow: 2; */
+    align-self: flex-start;
+}
+.item-2 {
+    background-color: #B95F21;
+    /*The order Property */
+    /* order: 2;  */
+align-self: center;
+    /*Flex grow property */
+    /* flex-grow: 1;   */
+
+    /*Flex Shrink property */
+    /* flex-shrink: 1;  */
+
+    /*Flex basis property---- does the work of width */
+    /* flex-basis: 200px ; */
+
+    /* flex property -- flex grow, shrink, basis.  */
+}
+.item-3 {
+    background-color: #1C4C56;
+    /* order: 3; */
+    /* flex-grow: 5; */
+    /*Flex Shrink property*/
+    /* flex-shrink: 1; */
+}
+.item-4 {
+    background-color: #CfB276;
+    /*flex-grow: 2;*/
+}
+.item-5 {
+    background-color: #6B0803;
+    /* flex: 1 1; */
+}
+.item-6 {
+    background-color: #1C4C56;
+}
+.item-7 {
+    background-color: #B95F21;
+}
+.item-8 {
+    background-color: #01243A;
+}
+.item-9 {
+    background-color: #AAD041;
+}
