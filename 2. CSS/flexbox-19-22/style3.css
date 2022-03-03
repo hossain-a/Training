@@ -1,0 +1,42 @@
+.container{
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+}
+.item1{
+    background-color: #002929;
+    /* float: left;
+    width: 30%; */
+
+
+}
+.item2{
+    background-color: #161675;
+    /* float: right;
+    width: 70%; */
+}
+
+
+
+
+
+
+
+.cards{
+    display: flex;
+}
+.card{
+    font-size: 1.5rem;
+    border: 3px solid black;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.card .footer{
+    padding: 5px;
+    background-color: bisque;
+}
+.card .body{
+    flex: 1;
+}
