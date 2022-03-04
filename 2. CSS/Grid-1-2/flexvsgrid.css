@@ -1,0 +1,31 @@
+.grid{
+    
+    display: grid;
+    display: grid;
+    grid: auto auto / auto auto auto auto;
+    grid-gap: 10px;
+    background-color: green;
+    padding: 10px;
+}
+.gfg {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px 0;
+    font-size: 30px;
+}
+
+.flexbox{
+              
+    display: flex;
+    display: flex; 
+    grid: auto auto / auto auto auto auto; 
+    grid-gap: 10px; 
+    background-color: green; 
+    padding: 10px; 
+}
+.flex { 
+    background-color: rgb(255, 255, 255); 
+    text-align: center; 
+    padding: 25px 0; 
+    font-size: 30px; 
+} 

@@ -1,0 +1,32 @@
+body{
+    color: #fff;
+    font-family: 'Nunito Semibold';
+    text-align: center;
+}
+#content{
+    display: grid;
+    
+    /* for 3 columns individually gave them width  */
+    /* grid-template-columns: 30% 20% 50%; */
+
+    /* we can make more columns like this   */
+    /* grid-template-columns: 30% 20% 30% 20%; */
+
+    /* typically for css grid we use different units called fractions  */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    
+    /* we can use repeat func which allows us to repeat x amount of time and what we want to repeat */
+    grid-template-columns: repeat(9, 1fr);
+
+    max-width: 960px;
+    margin: 0 auto;
+}
+#content div{
+    background: #3bbced;
+    padding: 30px;
+}
+#content div:nth-child(even){
+    background: #777;
+    padding: 30px;
+}
+
