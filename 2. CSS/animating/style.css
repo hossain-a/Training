@@ -1,0 +1,64 @@
+.container {
+    width: 60%;
+    height: 70%;
+    
+  }
+  
+.box {
+    width: 200px;
+    height: 200px;
+    /* duration of my transition */
+    transition-duration: 2s;
+
+    /* what i want to transition */
+    transition-property: width;
+    
+    /* transition-delay: 3s; */
+    /* background: black; */
+    /* transition-property: background, transform ; */
+    
+    /* does the work of transition property, duration, timing function  */
+    /* transition: background 5000ms ease-in; */
+
+    /* does the work of transition duration, delay, property, timing function  */
+    transition: 1s 1s width ease-in;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+.container:hover .box {
+    /* background: blueviolet; */
+    /* transform: rotate(45deg); */
+
+    width: 600px;
+
+}
+  
+.one {
+    background: #07BEB8;
+    /* transition-timing-function: linear; */
+}  
+.two {
+    background: #3DCCC7;
+    /* transition-timing-function: ease-in; */
+}
+  
+.three {
+    background: #9CEAEF;
+    /* transition-timing-function: ease-out; */
+}
+  
+.four {
+    background: #B1F8F2;
+    /* transition-timing-function: ease-in-out; */
+}
+  
+/*
+transition-delay: 0;
+transition-duration: 1s;
+transition-property: background;
+transition-timing-function: ease;
+*/
