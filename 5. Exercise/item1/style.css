@@ -1,0 +1,132 @@
+/*============== LAYOUT SECTION ===============*/
+main {
+  margin: 0 auto;
+  width: 95%;
+  height: 100%;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/*============== container 1 ===============*/
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subheader {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 35px;
+  color: #808080;
+}
+
+/*============== container 2 ===============*/
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container2 .card {
+  background-color: white;
+  width: 260px;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.container2 .card .cardheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container2 .card .cardheader img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.container2 .card .cardheader .name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-bottom: 1px;
+}
+
+.container2 .card .cardheader .occupation {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 200;
+  margin-top: 1px;
+  color: #bbbbbb;
+}
+
+.container2 .card .cardmain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container2 .card .cardmain .info {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #808080;
+}
+
+.container2 .card .cardmain .info4 {
+  color: orange;
+}
+
+.container2 .card .cardmain .info10 {
+  color: orange;
+}
+
+.container2 .card .cardmain .info16 {
+  color: orange;
+}
+
+.container2 .card .cardmain .info22 {
+  color: orange;
+}
+
+hr {
+  margin: 0;
+  opacity: 0.5;
+}
+
+/*============== HEADINGS & PARAGRAPH SECTION ===============*/
+@media (max-width: 480px) {
+  .container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card {
+    margin: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

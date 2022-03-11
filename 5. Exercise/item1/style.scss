@@ -1,0 +1,108 @@
+$textcolor: #808080;
+$textcolor2: orange;
+$myfont: Arial, Helvetica, sans-serif;
+
+/*============== LAYOUT SECTION ===============*/
+main{
+    margin: 0 auto;
+    width: 95%;
+    height: 100%;
+    padding: 20px ;
+    background-color: #f0f0f0;
+}
+/*============== container 1 ===============*/
+.header{
+    font: {
+    family: $myfont;
+    weight: 500;
+    }
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.subheader{
+    font: {
+        family:$myfont;
+        size: 20px;
+        weight: 100;
+    }
+    margin-top: 0;
+    margin-bottom: 35px;
+    color: $textcolor;
+}
+/*============== container 2 ===============*/
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+.card{
+    background-color: white;
+    width: 260px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+.cardheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+img{
+    width: 100px;
+    border-radius: 50%;
+}
+.name{
+    font: {
+        family: $myfont;
+        weight: 400;
+    }
+    margin-bottom: 1px;
+}
+.occupation{
+    font: {
+        family:$myfont;
+        size: small;
+        weight: 200;
+    }    
+    margin-top: 1px;
+    color: #bbbbbb;
+}
+}
+.cardmain{
+    display: flex;
+    justify-content: space-between;
+    
+.info{
+    font-family: $myfont;
+    color: $textcolor;
+}
+.info4{
+    color: $textcolor2;
+}
+.info10{
+    color: $textcolor2;
+}
+.info16{
+    color: $textcolor2;
+}
+.info22{
+    color: $textcolor2;
+}
+}
+}
+}
+
+hr{
+    margin: 0;
+    opacity: 0.5;
+} 
+/*============== HEADINGS & PARAGRAPH SECTION ===============*/
+
+ @media (max-width: 480px) {
+
+    .container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .card{
+        margin: 20px;
+    }
+}
