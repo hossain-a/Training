@@ -1,0 +1,57 @@
+$color: blueviolet;
+ $textstyle: Georgia, 'Times New Roman', Times, serif; 
+
+.container{
+    font-family: $textstyle;
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    .section1{
+        padding-bottom: 50px;
+        text-align: center;
+    .header1{
+        color: $color;
+        letter-spacing: 3px;
+    }
+    .header3{     
+        font-size: large;
+        color: #888888;
+    }
+    }
+    .section2{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .card{
+            width:270px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            .subheader{
+                margin-bottom: 0;
+            }
+            .fa-gear{
+                color: $color;
+            }
+            .fa-user{
+                color: $color;
+            }
+            .fa-certificate{
+                color: $color;
+            }
+            .fa-user-group{
+                color: $color;
+            }
+        }
+    }
+
+}
+@media (max-width: 480px) {
+    .section2{
+        width: 270px;
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,75 @@
+.container {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container .section1 {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.container .section1 .header1 {
+  color: blueviolet;
+  letter-spacing: 3px;
+}
+
+.container .section1 .header3 {
+  font-size: large;
+  color: #888888;
+}
+
+.container .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .section2 .card {
+  width: 270px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .section2 .card .subheader {
+  margin-bottom: 0;
+}
+
+.container .section2 .card .fa-gear {
+  color: blueviolet;
+}
+
+.container .section2 .card .fa-user {
+  color: blueviolet;
+}
+
+.container .section2 .card .fa-certificate {
+  color: blueviolet;
+}
+
+.container .section2 .card .fa-user-group {
+  color: blueviolet;
+}
+
+@media (max-width: 480px) {
+  .section2 {
+    width: 270px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

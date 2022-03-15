@@ -1,0 +1,134 @@
+body {
+  margin: 10px;
+}
+
+.container {
+  background-color: #f5f5f5;
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .section2 .card {
+  background-color: white;
+  border-radius: 10px;
+  width: 270px;
+  margin-bottom: 10px;
+}
+
+.container .section2 .card .cardheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(orange), to(yellow));
+  background-image: linear-gradient(to right, orange, yellow);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.container .section2 .card .cardheader .maintitle {
+  background-color: white;
+  width: 40px;
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 7px;
+  text-align: center;
+}
+
+.container .section2 .card .cardheader .title {
+  margin-top: 10px;
+}
+
+.container .section2 .card .cardmain {
+  padding: 20px;
+}
+
+.container .section2 .card .cardmain .contentheader .contenttitle {
+  font-size: large;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container .section2 .card .cardmain .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .section2 .card .cardmain .content .clock {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.container .section2 .card .cardmain .content .level {
+  margin-bottom: 0;
+}
+
+.container .section2 .card .cardmain .contentend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .section2 .card .cardmain .contentend .rating {
+  margin-right: 4px;
+  color: orange;
+}
+
+.container .section2 .card .cardfooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+.container .section2 .card .cardfooter .name {
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .section2 {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
