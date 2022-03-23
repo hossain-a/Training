@@ -1,0 +1,116 @@
+$textcolor1:#00003d;
+*{
+    box-sizing: border-box;
+}
+main{
+.container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 1000px;
+    max-width: 100%;
+    margin: 10% auto;
+    padding: 10px;
+    .section1{
+        position: relative;
+        width: 100% ;
+        height: 60px;
+    img{
+        position: absolute;
+        width: 50px;
+        border-radius: 50%;
+        border: 5px solid white;
+    }
+    .img1 {
+        left: 0px;
+        z-index: 1;
+    }
+    .img2 {
+        left: 40px;
+        z-index: 2;
+    }
+    .img3 {
+        left: 80px;
+        z-index: 3;
+    }
+    .img4 {
+        left: 120px;
+        z-index: 4;
+    }
+    .circle{
+        position: absolute;
+        z-index: 5;
+        left: 160px;
+        background-color: orangered;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 5px solid white;
+        color: white;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+    .section2{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    .card0{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+    
+    .header{
+        font-size: 40px;
+        color: $textcolor1;
+        width: 300px;
+    }
+    .info{
+        font-size: 21px;
+        width: 600px;
+        
+    }
+    }
+    }
+    .section3{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    .card{
+        width: 300px;
+        max-width: 100%;
+        line-height: 25px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    .cardheader{
+        color: $textcolor1;
+    }
+    .cardinfo{
+        font-size: 1.1rem;
+    }    
+    }    
+    }
+    button {
+        display: inline-block;
+        background: #7751ff;
+        border-radius: 5px;
+        border: 1px solid transparent;
+        padding: 0.75rem 1.25rem;
+        color: white;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 1.5;
+    }  
+    button:hover{
+        background-color: #4a2db6;
+    }
+    p{
+        color:#6b6b6b;
+    strong{
+        color: $textcolor1;
+    }
+    }
+
+}
+}
+

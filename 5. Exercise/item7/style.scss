@@ -1,0 +1,166 @@
+$textcolor: #9e9e9e;
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #18113c;
+    word-wrap: break-word;
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    // design of the first box 
+    .firstbox{
+        width: 550px;
+        max-width:100%;
+    .header1{
+        font-size: 3rem;
+        color: white;
+    }
+    .info1{
+        font-size: 1.2rem;
+        color: $textcolor;
+        letter-spacing: 1px;
+        line-height: 1.3rem;
+        
+    }
+    .unsortedlist{
+        padding-left: 0;
+        list-style-type: none;
+    .text{
+        color: $textcolor;
+    }
+    .items{
+        margin-bottom: 7px;    
+        margin-left: 3px;    
+    .fa-solid{
+        color: orange;
+        
+    }
+    }
+    }    
+    }
+    // design of the second box 
+    .secondbox{
+        width: 550px;
+        max-width: 100%;
+        padding: 30px;
+    .formbox{
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+    .formheader{
+    .header2{
+        font-weight: 900;
+    }
+    .links{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    .btn{
+        box-shadow: 4px 1px 9px #e7e7e7;
+        margin-right: 10px;
+        max-width: 100%;
+        color: $textcolor;
+    }
+    .fa-google{
+        color: red;
+    }
+    .fa-twitter{
+        color: #35b2e4;
+    }
+    .fa-facebook{
+        color: #5555eb;
+    }
+    }
+    }   
+    .line{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        
+    hr{
+        width: 195px;
+        height: 0;
+        opacity: 0.5;
+    }
+    .info2{
+        margin: 0 auto;
+        font-size: 1rem;
+        color: #6e6e6e;
+
+    }
+    }  
+    .formbody{
+    .form1{
+        display: flex;
+        flex-direction: column;
+    .input{
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ebebeb;
+        border-radius: 5px;
+
+    }
+    .input3{
+        background-color: #7049ff;
+        border-color: #7049ff;
+        color: rgb(235, 235, 235);
+        font-size: 1.1rem;
+        font-weight: 200;
+        letter-spacing: 1.5px;
+
+    }
+    }
+    }
+    .formfooter{
+        .info3{
+            color: $textcolor;
+
+        }
+        .bold{
+            color: black;
+        }
+    }
+    }
+    }
+    button{
+        display: inline-block;
+        background: white;
+        border-radius: 5px;
+        border: 1px solid #cccccc;
+        cursor: pointer;
+        padding: 0.75rem 1.25rem;
+        color: #06001f;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 1.5;
+    }  
+    button:hover{
+        background-color: #c9c9c9;
+    }
+    button:active {
+        transform: translateY(1px);
+    }
+}  
+}
+// for the dots image 
+.container{
+    position: relative;
+    .img1{
+        position:absolute;
+        right:0;
+        bottom:0;
+        z-index: -1;
+    }
+}
+

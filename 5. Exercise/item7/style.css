@@ -1,0 +1,200 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #18113c;
+  word-wrap: break-word;
+}
+
+body .container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 5% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body .container .firstbox {
+  width: 550px;
+  max-width: 100%;
+}
+
+body .container .firstbox .header1 {
+  font-size: 3rem;
+  color: white;
+}
+
+body .container .firstbox .info1 {
+  font-size: 1.2rem;
+  color: #9e9e9e;
+  letter-spacing: 1px;
+  line-height: 1.3rem;
+}
+
+body .container .firstbox .unsortedlist {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+body .container .firstbox .unsortedlist .text {
+  color: #9e9e9e;
+}
+
+body .container .firstbox .unsortedlist .items {
+  margin-bottom: 7px;
+  margin-left: 3px;
+}
+
+body .container .firstbox .unsortedlist .items .fa-solid {
+  color: orange;
+}
+
+body .container .secondbox {
+  width: 550px;
+  max-width: 100%;
+  padding: 30px;
+}
+
+body .container .secondbox .formbox {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+body .container .secondbox .formbox .formheader .header2 {
+  font-weight: 900;
+}
+
+body .container .secondbox .formbox .formheader .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+body .container .secondbox .formbox .formheader .links .btn {
+  -webkit-box-shadow: 4px 1px 9px #e7e7e7;
+          box-shadow: 4px 1px 9px #e7e7e7;
+  margin-right: 10px;
+  max-width: 100%;
+  color: #9e9e9e;
+}
+
+body .container .secondbox .formbox .formheader .links .fa-google {
+  color: red;
+}
+
+body .container .secondbox .formbox .formheader .links .fa-twitter {
+  color: #35b2e4;
+}
+
+body .container .secondbox .formbox .formheader .links .fa-facebook {
+  color: #5555eb;
+}
+
+body .container .secondbox .formbox .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+body .container .secondbox .formbox .line hr {
+  width: 195px;
+  height: 0;
+  opacity: 0.5;
+}
+
+body .container .secondbox .formbox .line .info2 {
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #6e6e6e;
+}
+
+body .container .secondbox .formbox .formbody .form1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container .secondbox .formbox .formbody .form1 .input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+}
+
+body .container .secondbox .formbox .formbody .form1 .input3 {
+  background-color: #7049ff;
+  border-color: #7049ff;
+  color: #ebebeb;
+  font-size: 1.1rem;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+body .container .secondbox .formbox .formfooter .info3 {
+  color: #9e9e9e;
+}
+
+body .container .secondbox .formbox .formfooter .bold {
+  color: black;
+}
+
+body .container button {
+  display: inline-block;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  padding: 0.75rem 1.25rem;
+  color: #06001f;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+body .container button:hover {
+  background-color: #c9c9c9;
+}
+
+body .container button:active {
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+.container {
+  position: relative;
+}
+
+.container .img1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,118 @@
+body .container {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 1200px;
+  max-width: 100%;
+  margin: 10% auto;
+}
+
+body .container .section1 {
+  text-align: center;
+}
+
+body .container .section1 .header1 {
+  color: blueviolet;
+  letter-spacing: 3px;
+}
+
+body .container .section1 .header2 {
+  font-weight: 1000;
+}
+
+body .container .section1 .header3 {
+  font-size: large;
+  color: #888888;
+  padding: 0% 25%;
+}
+
+body .container .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+body .container .section2 .card {
+  width: 270px;
+  max-width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 3px 10px #f3f3f3;
+          box-shadow: 2px 3px 10px #f3f3f3;
+  margin-bottom: 20px;
+}
+
+body .container .section2 .card img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+body .container .section2 .card .cardhead {
+  padding: 10px;
+}
+
+body .container .section2 .card .cardhead .name {
+  margin-bottom: 0;
+}
+
+body .container .section2 .card .cardhead .occupation {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #888888;
+}
+
+body .container .section2 .card .cardmain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 10px 0 10px;
+}
+
+body .container .section2 .card .cardmain .maininfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .section2 .card .cardmain .maininfo .info0 {
+  padding-right: 5px;
+}
+
+body .container .section2 .card .cardmain .maininfo .info00 {
+  color: orange;
+}
+
+body .container .section2 .card .cardmain .maininfo .info {
+  color: #888888;
+}
+
+body .container .section2 .card .cardmain .maininfo .info1 {
+  color: orange;
+}
+
+body .container .section2 .card .cardmain .maininfo .info7 {
+  color: orange;
+}
+
+body .container .section2 .card .cardmain .maininfo .info13 {
+  color: orange;
+}
+
+body .container .section2 .card .cardmain .maininfo .info19 {
+  color: orange;
+}
+/*# sourceMappingURL=style.css.map */

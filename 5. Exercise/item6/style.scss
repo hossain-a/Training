@@ -1,0 +1,89 @@
+$textcolor: #949494;
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+.container{
+        width: 1200px;
+        max-width: 100%;
+        margin: 10% auto;
+ // Starting the design of the first container 
+    .firstcontainer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    .section{
+        font-size: larger;
+    .img1{
+        margin-top: 18.720px;
+    }
+    .info{
+        color: $textcolor;
+    }
+    }
+    .section1{
+        width: 370px;
+        max-width: 100%;
+    .fa-brands{
+        color: $textcolor;
+    }
+    }
+    .section2{
+        width: 240px;
+        max-width: 100%;
+    }
+    .section3{
+        width: 240px;
+        max-width: 100%;
+    }
+    .section4{
+        width: 270px;
+        max-width: 100%;
+    em{
+        color: blueviolet;
+    }
+    strong{
+        color: black;
+    }
+    }
+    ul{
+        padding-left:0;
+    }
+    li{
+        list-style-type: none;
+    }
+    .list{
+        text-decoration: none;
+        color: $textcolor;
+    }
+    }
+ // starting the design of second container 
+    .secondcontainer{
+        color: $textcolor;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    .first{
+        padding-right: 10px;
+    }
+    .second{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 600px;
+        max-width: 100%;
+        word-break: break-all;
+    .infox{
+        padding-right: 10px;
+    }
+    }
+    }
+}
+}
+
+
+
+

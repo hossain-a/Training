@@ -1,0 +1,121 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body .container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 10% auto;
+}
+
+body .container .firstcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .firstcontainer .section {
+  font-size: larger;
+}
+
+body .container .firstcontainer .section .img1 {
+  margin-top: 18.720px;
+}
+
+body .container .firstcontainer .section .info {
+  color: #949494;
+}
+
+body .container .firstcontainer .section1 {
+  width: 370px;
+  max-width: 100%;
+}
+
+body .container .firstcontainer .section1 .fa-brands {
+  color: #949494;
+}
+
+body .container .firstcontainer .section2 {
+  width: 240px;
+  max-width: 100%;
+}
+
+body .container .firstcontainer .section3 {
+  width: 240px;
+  max-width: 100%;
+}
+
+body .container .firstcontainer .section4 {
+  width: 270px;
+  max-width: 100%;
+}
+
+body .container .firstcontainer .section4 em {
+  color: blueviolet;
+}
+
+body .container .firstcontainer .section4 strong {
+  color: black;
+}
+
+body .container .firstcontainer ul {
+  padding-left: 0;
+}
+
+body .container .firstcontainer li {
+  list-style-type: none;
+}
+
+body .container .firstcontainer .list {
+  text-decoration: none;
+  color: #949494;
+}
+
+body .container .secondcontainer {
+  color: #949494;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .secondcontainer .first {
+  padding-right: 10px;
+}
+
+body .container .secondcontainer .second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 600px;
+  max-width: 100%;
+  word-break: break-all;
+}
+
+body .container .secondcontainer .second .infox {
+  padding-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */

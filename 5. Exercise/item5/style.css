@@ -1,0 +1,148 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .container {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 1000px;
+  max-width: 100%;
+  margin: 10% auto;
+  padding: 10px;
+}
+
+main .container .section1 {
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+
+main .container .section1 img {
+  position: absolute;
+  width: 50px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+main .container .section1 .img1 {
+  left: 0px;
+  z-index: 1;
+}
+
+main .container .section1 .img2 {
+  left: 40px;
+  z-index: 2;
+}
+
+main .container .section1 .img3 {
+  left: 80px;
+  z-index: 3;
+}
+
+main .container .section1 .img4 {
+  left: 120px;
+  z-index: 4;
+}
+
+main .container .section1 .circle {
+  position: absolute;
+  z-index: 5;
+  left: 160px;
+  background-color: orangered;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid white;
+  color: white;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .container .section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container .section2 .card0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 100%;
+}
+
+main .container .section2 .card0 .header {
+  font-size: 40px;
+  color: #00003d;
+  width: 300px;
+}
+
+main .container .section2 .card0 .info {
+  font-size: 21px;
+  width: 600px;
+}
+
+main .container .section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+main .container .section3 .card {
+  width: 300px;
+  max-width: 100%;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+main .container .section3 .card .cardheader {
+  color: #00003d;
+}
+
+main .container .section3 .card .cardinfo {
+  font-size: 1.1rem;
+}
+
+main .container button {
+  display: inline-block;
+  background: #7751ff;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 0.75rem 1.25rem;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+main .container button:hover {
+  background-color: #4a2db6;
+}
+
+main .container p {
+  color: #6b6b6b;
+}
+
+main .container p strong {
+  color: #00003d;
+}
+/*# sourceMappingURL=style.css.map */
