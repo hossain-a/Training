@@ -1,0 +1,105 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 1200px;
+  max-width: 100%;
+  margin: 10% auto;
+  padding: 20px;
+  word-break: break-word;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #150e36;
+}
+
+.container .inside-container {
+  width: 600px;
+  max-width: 100%;
+}
+
+.container .inside-container .firstbox {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .inside-container .firstbox .p-header {
+  color: #6b43fc;
+  margin-bottom: 10px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.container .inside-container .firstbox .p1-header {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+}
+
+.container .inside-container .firstbox .p2-header {
+  margin-top: 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #575270;
+  width: 470px;
+  max-width: 100%;
+}
+
+.container .inside-container .secondbox {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.container .inside-container .secondbox .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .inside-container .secondbox .icon {
+  margin-left: 20px;
+  color: #6b43fc;
+}
+
+.container .inside-container .secondbox .line {
+  border: 0;
+  border-bottom: 1px solid black;
+  opacity: 0.2;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container .inside-container .secondbox .h-info {
+  color: #6b43fc;
+}
+
+.container .inside-container .secondbox .p-info {
+  color: #575270;
+}
+/*# sourceMappingURL=style.css.map */
