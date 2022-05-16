@@ -1,0 +1,57 @@
+$background: rgb(246, 246, 246);
+$textcolor: #999999;
+$textcolor1: #2b2b2b;
+$hovercolor: #3cc7c6;
+
+// @mixin elementStyle($weight, $align, $size, $lineHeight, $color) 
+#four{
+    .four-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    .four-content{
+        .four-header{
+
+        }
+        .four-para{
+
+        }
+        .four-ul{
+            display: flex;
+            justify-content: space-around;
+            .four-list{
+                list-style-type: none;
+                padding: 8px 18px;
+                .four-link{
+                    text-decoration: none;
+                    letter-spacing: 1px;
+                    font-weight: 400;
+                    color: #757575;
+                    font-size: 14px;
+                }
+                .four-link:hover{
+                    color: $textcolor1;
+                }
+                .four-link:active{
+                    background-color: $textcolor;
+                }
+            }
+        }
+
+    }
+    .four-image{
+        .four-image-container{
+            display: flex;
+            .f-image{
+                width: 25%;
+                img{
+                max-width: none;
+                width: 100%;
+                }
+            }
+        }
+    }    
+    }
+}

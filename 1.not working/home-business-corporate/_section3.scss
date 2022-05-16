@@ -1,0 +1,91 @@
+// position:relative; left:50%; margin-left:-292.5px;
+// elementStyle($weight, $align, $size, $lineHeight, $color)
+
+$background: rgb(246, 246, 246);
+$textcolor: #999999;
+$textcolor1: #2b2b2b;
+$hovercolor: #3cc7c6;
+
+
+#three{
+    background-color: #f6f6f6;
+    padding-top: 90px;
+    .three-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    .three-image{
+        padding-left: 15px;
+        padding-right: 15px;
+    .type_image{
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+        border: 0;
+    }
+    }
+    .three-content{
+        display: flex;
+        width: 615px;
+        max-width: 100%;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+    .three-header{
+        @include elementStyle(400, left, 45px, 48px, #222);
+        text-transform: none;
+        letter-spacing: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .three-header1{
+        width: 100%;
+        @include elementStyle(300, left, 20px, 28px, #909090);
+        margin-top: 20px;
+        letter-spacing: 1PX;
+    }
+    .three-card{
+        display: flex;
+    .three-card-header{
+        color: $textcolor1;
+    }
+
+    .card1{
+        padding-right: 15px;
+    }
+    }
+
+    .three-button{
+
+    .three-button-link{
+
+    .button1{
+        @include elementStyle(400, center, 15px, 22px, #ffffff);
+        cursor: pointer;
+        outline: 0;
+        transition: all .3s ease-in;
+        border-width: 1px;
+        border-style: solid;
+        padding: 13px 28px 13px 28px;
+        border-radius: 0px;
+        background: rgba(60,199,198, 1);
+        border-color: rgba(60,199,198, 1);
+        letter-spacing: 1px;
+    }
+    .button1:hover{
+        color: #3cc7c6;
+        border-color: #3cc7c6;
+        background-color: white;
+    }
+
+    }
+        
+    }
+
+
+    }
+    }
+}

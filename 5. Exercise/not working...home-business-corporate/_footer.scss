@@ -1,0 +1,125 @@
+$background: rgb(246, 246, 246);
+$textcolor: #999999;
+$textcolor1: #2b2b2b;
+$hovercolor: #3cc7c6;
+
+// @mixin elementStyle($weight, $align, $size, $lineHeight, $color) 
+footer{
+    .footer-container{
+        background-color: #262626;
+        padding: 60px 0;
+    .footer1{
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+
+        .footer1-content{
+            width: 280px;
+            max-width: 100%;
+            padding: 10px;
+        .footer-logo{
+            margin-top: 15.168px;
+        }
+        .footer-header{
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+            color: #f2f2f2;  
+            font-size: 14px;              }
+        .c-container{
+        .footer-ul{
+            padding: 0;
+        .footer-li{
+            list-style-type: none;
+            padding: 5px 0px;
+        .footer-li-link{
+            text-decoration: none;
+            color: $textcolor;
+            transition-duration: 0.4s;
+        }
+        .footer-li-link:hover{
+            color: $hovercolor;
+        }
+        .li1{
+        img{
+            width: 50px;
+            height: 36.39px;
+        }
+        }
+        }
+        }
+        }
+        .content5-container{
+        .footer-ul{
+        .footer-li{
+            display: flex;
+        .li1{
+            margin-right: 20px;
+
+        }
+        .li2{
+        .date{
+            margin-top: 0;
+        }
+        }
+        }
+        }
+        }
+        } 
+        .ff{
+            width: 180px;
+        }
+        .footer1-content3{
+            width: 200px;
+        .footer-ul{
+        .footer-li{
+            background-color: #212121;
+            padding: 15px !important;
+            margin-bottom: 20px;
+
+        }
+        }
+        }
+        }
+    }
+    .footer-container2{
+        background-color: #212121;
+        padding: 40px 20px;
+    .footer2{
+        width: 1200px;
+        max-width: 100%;
+        margin:0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    .footer2-content2{
+        width: 220px;
+        max-width: 100%;
+    .footer_social_icons{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    li{
+        background-color: #333333;
+        padding: 5px 12px;
+    }
+    .fa{
+    }
+    a{
+        color: $textcolor;
+        font-size: 15px ;
+        transition-duration: 0.4s;
+    }
+    a:hover{
+        color: white;
+    }
+    }
+    }
+    }
+    }
+}

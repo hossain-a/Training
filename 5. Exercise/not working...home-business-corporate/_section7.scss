@@ -1,0 +1,126 @@
+$background: rgb(246, 246, 246);
+$textcolor: #999999;
+$textcolor1: #2b2b2b;
+$hovercolor: #3cc7c6;
+
+// @mixin elementStyle($weight, $align, $size, $lineHeight, $color) 
+#seven{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: $background;
+ 
+    .seven-container{
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+
+    .seven-content{
+        text-align: center;
+    .seven-header{
+        margin-bottom: 0;
+        margin-top: 0;
+        @include elementStyle(100, center, 45px, 50px, $textcolor1);
+    }
+    .seven-para{
+        padding: 0 20%;
+        letter-spacing: 0.5px;
+        @include elementStyle(100, center, 20px, 28px, $textcolor);
+        margin-bottom: 40px;
+    }
+    }
+    .seven-card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    .seven-card{
+        background-color: white;
+        width: 350px;
+        max-width: 100%;
+        margin-right: 10px;
+        margin-bottom: 20px;
+
+    .seven-image{
+        width: 350px;
+        max-width: 100%;
+        cursor: pointer;
+    }
+    .seven-image:hover{
+        opacity: .5;
+    }
+    .seven-card-content{
+        padding: 20px;
+        padding-bottom: 0;
+    .seven-header-link{
+        text-decoration: none;
+        color: $textcolor1;
+        transition: 0.4s;
+        .seven-card-header{
+            letter-spacing: 1px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: 400;
+            line-height: 26px;
+            font-size: 20px;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+    .seven-header-link:hover{
+        color: $hovercolor;
+    }
+    .seven-card-info{
+        .span-7text{
+            font-size: 14px;
+        }
+    }
+    .seven-card-para{
+        // margin-top: 10px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 0;
+    }
+
+    }
+    .seven-card-list{
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    .seven-list-item{
+        list-style-type: none;
+        
+    .seven-read-link{
+        text-decoration: none;
+        transition: 0.4s;
+        color: $textcolor1;
+    }
+    .seven-read-link:hover{
+        color: $hovercolor;
+    }
+    .QQ{
+
+    }
+
+    }
+    }
+    }
+    }
+    }
+
+}
+@media (min-width: 1250px){
+
+    .seven-container{
+        width: 1300px !important;
+    }
+    .seven-card{
+        width: 400px !important;
+        .seven-image{
+            width: 400px !important;
+        }
+    }
+
+    
+}
+

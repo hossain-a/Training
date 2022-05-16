@@ -1,0 +1,53 @@
+$background: rgb(246, 246, 246);
+$textcolor: #999999;
+$textcolor1: #2b2b2b;
+$hovercolor: #3cc7c6;
+
+// @mixin elementStyle($weight, $align, $size, $lineHeight, $color) 
+
+#five{
+    background-color: $background;
+    padding: 90px 0;
+    .five-container{
+        width: 1200px;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        .five-content{
+            text-align: center;
+        .five-header{
+            @include elementStyle(300, center, 45px, 50px, #333);
+            margin-bottom: 0;
+            margin-top: 0;
+        }    
+        .five-para{
+            padding: 0 20%;
+            letter-spacing: 0.5px;
+            @include elementStyle(200, center, 20px, 28px, #777777);
+        }
+        }
+        .five-image{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            text-align: center;
+        .five-item{
+            transition: 0.4s;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .five-item:hover{
+            background-color: white;
+        }    
+        }
+    }
+}
+
+@media (max-width: 480px){
+    .five-image{
+        flex-direction: column !important;
+        align-items: center;
+    }
+}

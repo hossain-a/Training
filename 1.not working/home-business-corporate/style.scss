@@ -1,0 +1,44 @@
+$background: rgb(246, 246, 246);
+$textcolor: #999999;
+$textcolor1: #2b2b2b;
+$hovercolor: #3cc7c6;
+
+@mixin elementStyle($weight, $align, $size, $lineHeight, $color) {
+    font-family: Lato;
+    font-weight: $weight;
+    font-style: normal;
+    text-align: $align;
+    text-transform: none;
+    font-size: $size;
+    line-height: $lineHeight;
+    letter-spacing: 0px;
+    color: $color;
+} 
+@import "./nav";
+@import "./section1";
+@import "./section2";
+@import "./section3";
+@import "./section4";
+@import "./section5";
+@import "./section6";
+@import "./section7";
+@import "./section8";
+@import "./section9";
+@import "./footer";
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Lato,Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    color: $textcolor;
+    font-size: 16px;
+
+}
+

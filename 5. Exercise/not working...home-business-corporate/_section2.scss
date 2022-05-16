@@ -1,0 +1,72 @@
+$background: rgb(246, 246, 246);
+$textcolor: #999999;
+$textcolor1: #2b2b2b;
+$hovercolor: #3cc7c6;
+
+
+#two{
+
+.two-container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    margin-bottom: 70px;
+    .card{
+        text-align: center;
+        padding: 15px;
+        width: 360px;
+        margin-bottom: 20px;
+    .two-header{
+        margin: 10px 0 0 0 ;
+        line-height: 24px;
+        font-size: 17px;
+    .two-link{
+        text-decoration: none;
+        color: $textcolor1;
+        font-family: Lato;
+        letter-spacing: 1px;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+    .two-link:hover{
+        color:$hovercolor;
+        transition-duration: 0.4s;
+
+    }
+    }
+    .two-para{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+
+    }
+        // .card1{
+
+        // }
+        // .card2{
+
+        // }
+        // .card3{
+
+        // }
+    }
+}
+
+@media(max-width:768px){
+    .two-container{
+        flex-direction: column;
+        align-items: center;
+
+        .card{
+            width: 450px !important ;
+            max-width: 100% !important;
+        }
+    }
+
+}
